@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/27/19 18:19:16 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2.net.xml"/>
+        <plain-output-prefix value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<nodes version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="-372975.33,-3769906.05" convBoundary="0.00,0.00,7863.12,12050.55" origBoundary="-118.570767,34.063113,-118.291270,34.190807" projParameter="+proj=utm +zone=11 +ellps=WGS84 +datum=WGS84 +units=m +no_defs"/>
+
+    <node id="1111111111" x="1574.55" y="8760.89" type="dead_end"/>
+    <node id="16298125" x="1428.90" y="8500.28" type="traffic_light" tl="16298125"/>
+    <node id="2200742494" x="1516.06" y="8679.94" type="traffic_light" tl="2200742494"/>
+    <node id="2302151437" x="1606.62" y="8820.76" type="dead_end"/>
+    <node id="2358086434" x="1532.58" y="8867.73" type="dead_end"/>
+    <node id="2358086440" x="1544.66" y="8762.02" type="priority"/>
+    <node id="2358091642" x="1363.15" y="8359.80" type="dead_end"/>
+    <node id="268550672" x="7837.24" y="84.58" type="dead_end"/>
+    <node id="269388345" x="1506.30" y="8827.18" type="dead_end"/>
+    <node id="269388771" x="1531.93" y="8711.32" type="priority"/>
+    <node id="269390046" x="1385.30" y="8404.24" type="traffic_light" tl="269390046"/>
+    <node id="299527838" x="6.86" y="12050.55" type="dead_end"/>
+    <node id="3189601354" x="1579.92" y="8674.32" type="priority"/>
+    <node id="344050122" x="1468.27" y="8578.80" type="priority"/>
+    <node id="361142995" x="1544.66" y="8821.97" type="traffic_light" tl="361142995"/>
+    <node id="4075663479" x="1415.89" y="8374.78" type="dead_end"/>
+    <node id="4075688776" x="1401.73" y="8440.38" type="priority"/>
+    <node id="4075688777" x="1451.81" y="8546.07" type="priority"/>
+    <node id="4075688779" x="1490.38" y="8626.00" type="priority"/>
+    <node id="4075727445" x="1545.85" y="8791.64" type="priority"/>
+    <node id="4757166095" x="1512.72" y="8465.84" type="dead_end"/>
+    <node id="4757166098" x="1501.25" y="8477.83" type="dead_end"/>
+    <node id="4758873388" x="1507.85" y="8577.36" type="dead_end"/>
+    <node id="4980614142" x="1471.58" y="8703.09" type="dead_end"/>
+    <node id="4980717088" x="1355.96" y="8537.55" type="dead_end"/>
+    <node id="4980717089" x="1362.35" y="8548.45" type="dead_end"/>
+    <node id="6215060892" x="0.00" y="12047.25" type="dead_end"/>
+    <node id="6215060968" x="7863.12" y="0.00" type="dead_end"/>
+</nodes>

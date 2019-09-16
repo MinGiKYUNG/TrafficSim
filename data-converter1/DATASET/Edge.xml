@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 06/27/19 18:19:16 by Eclipse SUMO netedit Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2.net.xml"/>
+        <plain-output-prefix value="C:\Users\Yeeun%20Kim\Desktop\map\lks_merge\lks2"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<edges version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="-100000106" from="2358086440" to="1111111111" priority="-1" numLanes="1" speed="5.56"/>
+    <edge id="-13400999" from="361142995" to="2302151437" name="James Stewart Avenue" priority="3" type="highway.residential" numLanes="3" speed="13.89" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-182456135" from="361142995" to="2358086434" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" shape="1544.66,8821.97 1543.23,8831.22 1541.07,8841.17 1538.38,8850.93 1535.18,8860.42 1532.58,8867.73" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-185720528" from="2358091642" to="269390046" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="2" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-227078004" from="2200742494" to="4980614142" priority="1" type="highway.service" numLanes="2" speed="5.56" shape="1516.06,8679.94 1507.89,8683.89 1499.22,8689.37 1471.58,8703.09" allow="delivery bicycle pedestrian"/>
+    <edge id="-313036847" from="2200742494" to="3189601354" name="Main Street" priority="4" type="highway.unclassified" numLanes="2" speed="13.89" shape="1516.06,8679.94 1526.25,8675.11 1532.18,8674.01 1539.73,8673.77 1579.92,8674.32" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405366764" from="16298125" to="344050122" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405366768" from="269390046" to="4075688776" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" shape="1385.30,8404.24 1392.74,8420.02 1401.73,8440.38" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405366770" from="344050122" to="4075688779" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" shape="1468.27,8578.80 1487.54,8619.16 1490.38,8626.00" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405366771" from="4075688776" to="16298125" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="5" speed="15.65" shape="1401.73,8440.38 1410.32,8459.82 1416.61,8474.21 1423.33,8488.49 1428.90,8500.28" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405366773" from="4075688779" to="2200742494" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="5" speed="15.65" shape="1490.38,8626.00 1493.01,8632.36 1497.84,8643.42 1502.30,8652.65 1503.24,8654.60 1516.06,8679.94" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405367634" from="2200742494" to="269388771" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405367638" from="269388771" to="2358086440" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" shape="1531.93,8711.32 1543.50,8751.02 1544.66,8762.02" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405367639" from="4075727445" to="361142995" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="5" speed="15.65" shape="1545.85,8791.64 1545.87,8803.15 1545.88,8806.45 1545.51,8814.28 1544.66,8821.97" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-405367640" from="2358086440" to="4075727445" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" shape="1544.66,8762.02 1545.37,8773.65 1545.85,8785.74 1545.85,8791.64" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="-483133385" from="344050122" to="4758873388" name="Jimi Hendrix Drive" priority="1" type="highway.service" numLanes="1" speed="5.56" allow="delivery bicycle pedestrian"/>
+    <edge id="-506148923" from="269388345" to="361142995" name="Valleyheart Drive" priority="3" type="highway.residential" numLanes="2" speed="13.89" shape="1506.30,8827.18 1519.19,8823.35 1524.87,8822.20 1544.66,8821.97" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="100000106" from="1111111111" to="2358086440" priority="-1" numLanes="1" speed="5.56"/>
+    <edge id="13400999" from="2302151437" to="361142995" name="James Stewart Avenue" priority="3" type="highway.residential" numLanes="3" speed="13.89" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="182456135" from="2358086434" to="361142995" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="5" speed="15.65" shape="1532.58,8867.73 1535.18,8860.42 1538.38,8850.93 1541.07,8841.17 1543.23,8831.22 1544.66,8821.97" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="185720528" from="269390046" to="2358091642" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="227078004" from="4980614142" to="2200742494" priority="1" type="highway.service" numLanes="2" speed="5.56" shape="1471.58,8703.09 1499.22,8689.37 1507.89,8683.89 1516.06,8679.94" allow="delivery bicycle pedestrian"/>
+    <edge id="313036847" from="3189601354" to="2200742494" name="Main Street" priority="4" type="highway.unclassified" numLanes="2" speed="13.89" shape="1579.92,8674.32 1539.73,8673.77 1532.18,8674.01 1526.25,8675.11 1516.06,8679.94" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="405364840" from="4075663479" to="269390046" priority="9" type="highway.motorway_link" numLanes="3" speed="15.65" shape="1415.89,8374.78 1395.17,8396.19 1390.58,8400.43 1385.30,8404.24" spreadType="center" allow="private emergency authority army vip passenger hov taxi bus coach delivery truck trailer motorcycle evehicle custom1 custom2"/>
+    <edge id="405366764" from="4075688777" to="16298125" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="6" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="405366771" from="16298125" to="269390046" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" shape="1428.90,8500.28 1423.33,8488.49 1416.61,8474.21 1410.32,8459.82 1385.30,8404.24" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="405366773" from="2200742494" to="344050122" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" shape="1516.06,8679.94 1503.24,8654.60 1499.00,8645.83 1497.84,8643.42 1493.01,8632.36 1492.17,8630.22 1490.33,8625.50 1468.27,8578.80" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="405367634" from="269388771" to="2200742494" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="5" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="405367639" from="361142995" to="269388771" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="4" speed="15.65" shape="1544.66,8821.97 1545.51,8814.28 1545.88,8806.45 1545.87,8803.32 1545.87,8801.33 1545.86,8796.07 1545.98,8787.29 1544.32,8755.62 1543.01,8750.30 1531.93,8711.32" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="483133385" from="4758873388" to="344050122" name="Jimi Hendrix Drive" priority="1" type="highway.service" numLanes="1" speed="5.56" allow="delivery bicycle pedestrian"/>
+    <edge id="506148923" from="361142995" to="269388345" name="Valleyheart Drive" priority="3" type="highway.residential" numLanes="1" speed="13.89" shape="1544.66,8821.97 1524.87,8822.20 1519.19,8823.35 1506.30,8827.18" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="508815228" from="4980717088" to="16298125" name="Campo de Cahuenga" priority="12" type="highway.primary" numLanes="3" speed="15.65" shape="1355.96,8537.55 1408.98,8506.22" spreadType="center" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="508815234" from="16298125" to="4980717089" name="Campo de Cahuenga" priority="12" type="highway.primary" numLanes="3" speed="15.65" shape="1414.21,8515.14 1362.35,8548.45" spreadType="center" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="518178646" from="344050122" to="4075688777" name="Lankershim Boulevard" priority="12" type="highway.primary" numLanes="3" speed="15.65" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="518179568" from="16298125" to="4757166095" name="Universal Hollywood Drive" priority="4" type="highway.unclassified" numLanes="3" speed="13.89" shape="1439.78,8488.90 1478.20,8474.46 1488.45,8469.59 1495.29,8467.39 1502.14,8465.98 1512.72,8465.84" spreadType="center" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="518179569" from="4757166098" to="16298125" name="Universal Hollywood Drive" priority="4" type="highway.unclassified" numLanes="3" speed="13.89" shape="1501.25,8477.83 1484.95,8484.89 1444.56,8499.52" spreadType="center" disallow="tram rail_urban rail rail_electric ship"/>
+</edges>
